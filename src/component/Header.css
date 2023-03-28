@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+
+  }
+
+body{
+  background-color: #fff3f3;
+}
+
+
+.HeaderGroup{
+  z-index: 5;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.047);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.138) 11.97%, rgba(255, 255, 255, 0.1) 98.01%);
+}
+
+ul {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 3rem;
+  font-size: 20px;
+  color: #fe0000;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+
+.account img{
+  width:25px;
+  margin-top: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius:100%;
+  /* padding: 6px 8px 0px 8px; */
+  background-color: #fe0000;
+}
+
+li{
+  
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'poppins';
+  font-style: normal;
+  line-height: 30px;
+  transition: 0.4s;
+  transition-timing-function: cubic-bezier(0.2, 0.1, 0.2, 1);
+}
+
+.HeaerTitles li:hover{
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  transform: translateY(-4.5px);
+  border-radius: 25px;
+
+
+}
+

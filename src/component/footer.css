@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer{
+    width: auto;
+    height: 300px;
+    background: #1E1E1E;
+    margin-top: 250px;
+}
+
+.Group1 img{
+    width:200px;
+    display:flex;
+    flex-direction: column;
+}
+
+.FooterGroup{
+    padding: 10px 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer h3{
+    color: #fff;
+    padding-left: 0px;
+    margin-top: -15px;
+    text-align: left;
+}
+
+.Footer p{
+    cursor: pointer;
+    padding-top: 97px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(159, 159, 159, 0.58);    
+}
+
+.Group2 p{
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(159, 159, 159, 0.58);
+    
+}
+
+.Group1 h3 , p{
+    text-align: left; 
+    padding: 0px 40px;   
+    
+}
+.Group2 h3{
+    text-align: left; 
+    margin-left: -40px;  
+    
+}
+
+.Group2 p{
+    margin-left: -80px;
+}
+
+
+.Group2, .Group3{
+    text-align: left;
+    padding-top: 42px;
+}
+
+
+
+.Group3 img{
+    margin-top: 70px;
+    cursor: pointer;
+    
+}
+
+
+    
+
+
+
+.ImageGroup{
+    padding-right: 55px;
+    
+}
+
+.ImageGroup1{
+    padding-right: 20px;
+    width: 65px;
+}

@@ -1,0 +1,133 @@
+.Hero{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.HeroTitle{
+    margin:150px 135px ;
+    z-index: 4;
+    animation:HeroAnimation;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.1, 0.2, 1);
+}
+
+
+.heroTitle1{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+h1, h2 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    color: #1A2227;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+
+
+h2{
+    color: #ff0000;
+}
+
+.HeroTitle .Button button{
+    position:relative;
+    padding:6px 60px;
+    background: #FE0000;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px; 
+}
+
+.Button button{
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(0.2, 0.1, 0.2, 1);
+}
+
+.HeroTitle .Button a{
+    position: relative;
+    margin: -20px -50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(0.2, 0.1, 0.2, 1);
+
+} 
+
+.HeroTitle p{
+    color: rgba(96, 96, 96, 0.58);
+    font-family: 'Poppins';
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: -40px;
+}
+
+.HeroImage{
+    background-image: url('../Images/heroBg.png');
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 381px;
+    height: 597px;
+    margin: 150px 35px ;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+} 
+
+.HeroImage{
+    display: flex;
+    flex-direction: row;
+}
+
+.Card{
+    position: relative;
+    margin-top: 150px;
+}
+
+
+.Button button:hover {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+    transform: translateY(-5.5px);
+
+}
+  
+.Button a:hover{
+    color: #ff0000;
+    transform: translateY(-3.5px);
+}
+
+@keyframes HeroAnimation{
+    0%{
+        opacity: 0;
+        transform: translateY(20PX);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0PX);
+    }
+}
